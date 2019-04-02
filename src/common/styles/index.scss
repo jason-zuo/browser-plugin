@@ -1,0 +1,5 @@
+@charset "utf-8";
+@import "variables";      //存放各个变量
+@import "mixins";         //各种可服用的mixin，比如box-sizing的兼容写法
+@import "reset";          //重置掉浏览器的自定义样式
+@import "icon";          //字体

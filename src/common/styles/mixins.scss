@@ -1,0 +1,15 @@
+@mixin font-style($color, $size, $weight : 500) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+}
+
+@mixin bg-img($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@mixin box-shadow() {
+    box-shadow: 7px 5px 12px #2c2f3e;
+}
